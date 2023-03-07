@@ -1,14 +1,46 @@
 body {
 	background-color: bisque
-}
+  }
 
 h1 {
-    color: coral;
+    color: rgb(90, 64, 33);
+    font-size: 40px;
   }
 
-  div {
-    width: 300px;
-    border: 15px solid coral;
-    padding: 40px;
-    margin: 40px;
+h2 {
+    color: rgb(150, 100, 26)
   }
+
+h3 {
+  color: rgb(150, 100, 26);
+}
+
+p {
+    color: rgb(150, 100, 26);
+  }
+
+.container {
+    margin: auto;
+    display: inline-block;
+    margin: 5px 15px;
+    gap:20px;
+    position: relative;
+  }
+
+.card {
+    height:auto;
+    background-color: burlywood;
+    width: 23%;
+    float: left;
+    margin: 20px 1%;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 10px 10px rgb(150, 123, 89);
+  }
+  
+.head-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+   
