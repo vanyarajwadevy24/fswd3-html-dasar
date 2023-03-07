@@ -1,0 +1,14 @@
+body {
+	background-color: bisque
+}
+
+h1 {
+    color: coral;
+  }
+
+  div {
+    width: 300px;
+    border: 15px solid coral;
+    padding: 40px;
+    margin: 40px;
+  }
