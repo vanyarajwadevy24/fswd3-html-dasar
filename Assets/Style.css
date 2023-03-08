@@ -1,5 +1,5 @@
 body {
-	background-color: bisque
+	background-color:rgb(238, 227, 214);
   }
 
 h1 {
@@ -29,7 +29,18 @@ p {
 
 .card {
     height:auto;
-    background-color: burlywood;
+    background-color: rgb(230, 208, 179);
+    width: 23%;
+    float: left;
+    margin: 20px 1%;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 10px 10px rgb(192, 161, 123);
+  }
+
+.card2 {
+    height:auto;
+    background-color: rgb(192, 162, 123);
     width: 23%;
     float: left;
     margin: 20px 1%;
