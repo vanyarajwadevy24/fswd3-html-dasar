@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Form Pendaftaran SIB</title>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="../Assets/Todolist.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" type="text/css" href="../Assets/Style.css">
     </head>
     <body>
@@ -13,6 +19,7 @@
             </table>
             <hr>
         </header>
+
         <nav>
             <center>
                 <p><a href="../index.html">Homepage</a> || <a href="heading.html">Heading</a></p>
@@ -26,17 +33,19 @@
             </center>
             <hr>
         </nav>
-
         <article>
-
-                <center>
-                    <h1 style="text-align: center;">My Account</h1>
-                    <a target="_blank" href="https://www.facebook.com/vanya.rajwadevy"><img src="../Assets/Facebook.jpg" alt="Vanya Rajwadevy" width="10%"></a> 
-                    <a target="_blank" href="https://www.instagram.com/vanya.rd/?next=%2F"><img src="../Assets/Instagram.jpg" alt="vanya.rd" width="15%"></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/vanya-rajwadevy"><img src="../Assets/linkedin.jpg" alt="vanya rajwadevy" width="10%"></a>
-                    <a target="_blank" href="https://github.com/vanyarajwadevy24"><img src="../Assets/GitHub.jpg" alt="vanya rajwadevy" width="15%"></a>
-                </center>     
+            <h1 class="title">
+                ToDo List
+            </h1>
+            <div class="todo-list">
+                <div class="list-head">
+                    <input type="text" class="entered-list">
+                    <button class="add-list">Add</button>
+                </div>
+            <div class="tasks">
+            </div>
+            </div>
+                <script src="../JavaScript/Todolist.js"></script>
         </article>
-        
-    </body> 
+    </body>
 </html>
