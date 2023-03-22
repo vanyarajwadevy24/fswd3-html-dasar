@@ -35,6 +35,17 @@ addBtn.addEventListener('click', () => {
         todos.push(input.value);
         window.localStorage.setItem("todos", JSON.stringify(todos));
 
+        fetch('https://crudcrud.com/api/c058ed9416ff4c3ba40a7a78bd5830b2/mahasiswa', {
+            
+            headers: { "Content-Type": "application/json; charset=utf-8"},
+            method: 'POST',
+            body: JSON.stringify({
+              todos: input.value
+            })
+          })
+          .then(response => response.json())
+          .then(data => console.log(data))
+
         tasks.appendChild(newItem);
         input.value = "";
     }
